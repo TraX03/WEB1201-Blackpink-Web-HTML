@@ -1,0 +1,38 @@
+MY CONTRIBUTION
+
+Design:
+- Developed the foundational design of the website
+- Created the Album and Album Playlist pages
+- Crafted most sections of the Homepage
+- Designed the Bio page, excluding the history of Blackpink section
+
+
+Coding:
+- Album page
+- Album Playlist page
+- Bio page
+- Gallery page
+- Assisted in the development of the Homepage
+
+
+Initial Phase Report (Group_27.docx):
+Most of the 2. Design Plan section, excluding:
+  - 2.1 Design: wireframes for the Bio and Gallery pages, wireframes and descriptions for pages other than the Album and Album Playlist pages
+  - 2.7 Content: Pages other than the Album, Album Playlist, Bio, and Gallery
+
+
+Final Phase Report (WEB1201(WEB2014)_2023-04_Group-Report-Template_20230529.docx):
+- 2. Design Concept: Album, Album Playlist, Bio, and Gallery pages
+- Entire 4. Implementation and Results section
+
+
+
+
+
+
+
+
+
+
+
+
