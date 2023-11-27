@@ -1,0 +1,311 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url(OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+  font-family: 'League Spartan';
+  src: url(LeagueSpartan-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Sanchez;
+  src: url(Sanchez-Regular.ttf);
+}
+
+body {
+  background-color: #231F20;
+  margin: 0;
+  font-size: 28px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+  padding-bottom: 280px;
+  padding-top: 20px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #0B0819;
+  width: 100%;
+  z-index: 100;
+}
+
+/*font section*/
+h1 {
+  font-family: 'League Spartan', sans-serif;
+}
+
+h2 {
+  font-family: Sanchez, slab-serif;
+}
+
+.misc {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*navigation bar*/
+.topNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.topNav li a:not(#none) {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  height: 38px;
+  width: 110px;
+  text-decoration: none;
+  float: right;
+}
+
+.topNav li a#none {
+  padding: 11px 20px;
+}
+
+.topNav .bar {
+  display: none;
+  cursor: pointer;
+}
+
+/*the link with class active will not have hover effect*/
+.topNav li a:hover:not(.active):not(#none) {
+  background-color: rgb(255, 229, 253);
+  color: black;
+}
+
+.active {
+  background-color: #EB97BB;
+}
+
+/*footer*/
+.break2 {
+  flex-basis: 100%;
+  height: 80px;
+  display: none;
+}
+
+.bottomNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0px;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.bottomNav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 30px;
+  border-right: 2px solid white;
+  text-decoration: none;
+}
+
+.bottomNav li:last-child a {
+  border-right: none;
+}
+
+.logo {
+  float: left;
+  padding: 40px 50px;
+  width: 30%;
+}
+
+.logo p {
+  opacity: 0.76;
+  line-height: 18px;
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 12px;
+  color: white;
+}
+
+.contact {
+  float: right;
+  padding-top: 40px;
+  width: 10%;
+  margin-right: 30px;
+}
+
+.contact p {
+  font-size: 14px;
+  color: white;
+}
+
+.contact a {
+  padding-right: 7px;
+  padding-left: 2px;
+}
+
+#scrollTop,
+#login {
+  display: none;
+  position: fixed;
+  outline: none;
+  cursor: pointer;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-image: linear-gradient(#FFF7AD, #FFA9F9);
+  border: 5px solid black;
+}
+
+#login {
+  display: block;
+  bottom: 70px;
+}
+
+#scrollTop:hover {
+  background-color: rgb(255, 229, 253);
+}
+
+/*scrollbar section*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0B0819;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffc0cb;
+  border-left: 4px solid #0B0819;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 229, 253);
+}
+
+/*for firefox*/
+html {
+  overflow-y: auto;
+  scrollbar-color: #ffc0cb #0B0819;
+  overflow-x: none;
+}
+
+/*media queries*/
+/*for mobile*/
+@media screen and (max-width: 600px) {
+
+  /*Responsive nav bar*/
+  .topNav li:not(:nth-child(5)) {
+    display: none;
+  }
+
+  .topNav li.bar {
+    float: left;
+    display: block;
+    height: 38px;
+    width: 16px;
+    padding: 0%;
+    margin: 0;
+    padding-top: 10px;
+    white-space: nowrap;
+    /*only firefox will wrap it idk why*/
+  }
+
+  .topNav.responsive {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .topNav.responsive .bar {
+    position: absolute;
+    top: 0;
+  }
+
+  .topNav li a#none:hover {
+    background-color: #ffe5fd;
+  }
+
+  .topNav.responsive li:not(:last-child) {
+    display: block;
+    width: 100%;
+  }
+
+  .topNav.responsive li a:not(#none) {
+    text-align: right;
+    padding-right: 25px;
+    width: 100%;
+  }
+
+  /*Responsive footer*/
+  footer {
+    padding-bottom: 80px;
+  }
+
+  .break2 {
+    display: block;
+  }
+
+  .bottomNav li:nth-child(2) a {
+    border-right: none;
+  }
+
+  .contact,
+  .logo {
+    clear: both;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .logo {
+    width: 80%;
+    padding: 50px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .logo p {
+    text-align: center;
+  }
+
+  .contact {
+    text-align: center;
+    width: 30%;
+    padding: 10px 0px;
+  }
+
+  .contact a:last-child {
+    padding-right: 0;
+  }
+
+}
+
+/*for protrait tablet*/
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  .contact {
+    width: 21%;
+  }
+}
+
+/*for landscape tablet*/
+@media screen and (max-width: 1280px) and (min-width: 768px) {
+  .contact {
+    width: 18%;
+  }
+}

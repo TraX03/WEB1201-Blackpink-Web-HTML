@@ -1,0 +1,748 @@
+.title,
+.desc {
+  height: auto;
+  float: left;
+}
+
+.title {
+  padding-bottom: 15px;
+  padding-top: 0;
+  border-right: 4px solid white;
+  width: 42%;
+}
+
+.desc {
+  width: 53%;
+  padding-left: 25px;
+}
+
+.img1 {
+  height: 100%;
+  width: 100%;
+}
+
+.Intro {
+  padding: 6px 53px;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+.mainTitle {
+  color: #F1A7BC;
+  font-size: 160px;
+  padding: 2px 49px;
+  margin-bottom: 40px;
+}
+
+.title p {
+  color: white;
+  font-size: 35px;
+  margin-top: 0;
+}
+
+.div1 {
+  width: 0px;
+  height: 65px;
+  border: 3px solid white;
+  margin: auto;
+  padding: auto;
+  display: flex;
+}
+
+.div2 {
+  float: right;
+
+}
+
+.p1 {
+  text-align: justify;
+  color: white;
+  font-size: 23.3px;
+  padding-top: 6px;
+  margin-top: 0;
+  padding-left: 10px;
+}
+
+.More {
+  float: right;
+  padding: 4% 0;
+}
+
+.More a {
+  color: white;
+  text-decoration-color: #F1A7BC;
+}
+
+.img2 {
+  margin: 0%;
+  padding-bottom: 0;
+  height: auto;
+  width: 100%;
+}
+
+.album {
+  background-color: #E69EB2;
+  padding: 60px 0;
+  margin-top: -8px;
+  text-align: center;
+  line-height: 2%;
+  color: white;
+  width: 100%;
+}
+
+.album p {
+  font-size: 20px;
+}
+
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column1,
+.column2 {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.share {
+  position: absolute;
+  border-radius: 50%;
+  background-color: white;
+  top: 19%;
+  right: 9%;
+  height: 50px;
+  width: 50px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.column1 {
+  width: 28%;
+  padding: 50px;
+  margin: auto;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+.column2 {
+  position: relative;
+  width: 28%;
+  padding: 50px;
+  margin: auto;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+
+.More2 {
+  float: right;
+  padding-right: 3.3%;
+}
+
+.More2 a {
+  color: white;
+  text-decoration-color: #eb97bb;
+}
+
+.gallery {
+  background-color: #E69EB2;
+  padding: 60px 0;
+  margin-top: 80px;
+  text-align: center;
+  line-height: 2%;
+  color: white;
+  width: 100%;
+}
+
+.gallery p {
+  font-size: 20px;
+}
+
+.g {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 100px;
+}
+
+.img3 {
+  display: inline-block;
+  width: 43%;
+  height: auto;
+  margin-left: 9.5%;
+}
+
+.galleryImg {
+  display: inline-block;
+  width: 35%;
+  height: auto;
+  margin: auto;
+  padding-left: 22px;
+}
+
+.img4 {
+  padding-bottom: 22px;
+  padding-left: 0px;
+}
+
+.More3 {
+  float: right;
+  padding: 0 4%;
+  clear: right;
+}
+
+.More3 a {
+  color: white;
+  text-decoration-color: #eb97bb;
+}
+
+.tours {
+  background-color: #E69EB2;
+  padding: 60px 0px;
+  margin-top: 80px;
+  text-align: center;
+  line-height: 2%;
+  color: white;
+  width: 100%;
+}
+
+.tours p {
+  font-size: 20px;
+}
+
+.date,
+.venue {
+  float: left;
+}
+
+.date {
+  padding-bottom: 15px;
+  padding-top: 0;
+  border-right: 4px solid white;
+  width: 30%;
+  text-align: right;
+  padding-right: 50px;
+  margin-right: 0;
+  margin-left: 5%;
+}
+
+.date h2 {
+  color: #FC81B8;
+  font-size: 36px;
+  padding-right: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.date p {
+  color: white;
+  font-size: 23px;
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 100px;
+  padding-right: 0;
+  margin-right: 0;
+
+}
+
+.venue {
+  width: 53%;
+  padding-left: 25px;
+}
+
+
+.venue h2 {
+  color: #FC81B8;
+  font-size: 36px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.venue p {
+  color: white;
+  font-size: 23px;
+  margin-top: 0;
+  padding-top: 18px;
+  text-align: center;
+}
+
+
+.upcoming1 {
+  padding: 6px 53px;
+  margin-top: 80px;
+  margin-right: 0;
+  padding-bottom: 170px;
+  color: white;
+}
+
+.countdown {
+  background-color: #E69EB2;
+  padding: 60px 164px;
+  margin-top: 100px;
+  margin-right: 57%;
+  text-align: center;
+  color: white;
+  float: left;
+}
+
+.break3 {
+  display: none;
+}
+
+.upcoming {
+  text-align: center;
+  float: right;
+  color: white;
+  padding-right: 100px;
+}
+
+.upcoming ul {
+  padding-right: 100px;
+  position: relative;
+  bottom: 256px;
+
+}
+
+.upcoming li {
+  display: inline-block;
+  font-size: 0.7em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.upcoming li span {
+  display: block;
+  font-size: 3.5rem;
+}
+
+.merchimg {
+  margin: 0%;
+  padding-bottom: 500px;
+  height: auto;
+  width: 100%;
+  margin-top: -199px;
+}
+
+.merch {
+  padding-bottom: 150px;
+  height: auto;
+  width: 100%;
+  margin-top: -770px;
+  background-image: linear-gradient(to right, rgba(230, 158, 178, 0.3), #54293D, rgba(230, 158, 178, 0.2), #70304E);
+  z-index: 88;
+  position: relative;
+}
+
+.bplogo {
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.merch p {
+  color: white;
+  font-size: 25px;
+  padding-left: 100px;
+}
+
+.merch p small {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.shopNow {
+  float: right;
+  padding: 0 4%;
+  clear: right;
+  padding-right: 100px;
+  padding-top: 20px;
+}
+
+.shopNow a {
+  color: white;
+  font-size: 21px;
+}
+
+
+h3 {
+  color: #E69EB2;
+  text-align: center;
+  font-size: 30px;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #0B0819;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+
+input[type=submit] {
+  background-color: #0B0819;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container1 {
+  border-radius: 5px;
+  background-color: #E69EB2;
+  padding: 20px;
+  width: 50%;
+  /* Set the width to 50% */
+  margin: 0 auto;
+  /* Center the container horizontally */
+}
+
+label {
+  font-size: 15px;
+}
+
+/*media queries*/
+/*for mobile*/
+@media screen and (max-width: 600px) {
+  body {
+    overflow: hidden;
+  }
+
+  .mainTitle {
+    font-size: 60px;
+    padding: 2px 20px;
+    margin-bottom: 40px;
+  }
+
+  .title {
+    padding-top: 0;
+    border-bottom: 4px solid white;
+    border-right: none;
+    width: 65%;
+    height: auto;
+  }
+
+  .title p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .Intro {
+    padding: 6px 24px;
+  }
+
+  .desc {
+    padding-top: 20px;
+    width: 100%;
+    padding-left: 0;
+    float: right;
+  }
+
+  .album {
+    padding: 30px 0;
+  }
+
+  .album p {
+    font-size: 18px;
+  }
+
+  .row {
+    padding-left: 0;
+  }
+
+  .column1,
+  .column2 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .column1 .share,
+  .column2 .share {
+    position: absolute;
+    display: flex;
+    border-radius: 50%;
+    top: 13%;
+    right: 8%;
+    height: 40px;
+    width: 40px;
+    transform: translate(-20%, -20%);
+    -ms-transform: translate(-20%, -20%);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .More2 {
+    float: right;
+    padding-right: 27px;
+    margin-top: -10px;
+  }
+
+  .gallery {
+    padding: 30px 0;
+    margin-top: 40px;
+  }
+
+  .gallery p {
+    font-size: 18px;
+  }
+
+  .g {
+    padding: 40px 30px;
+  }
+
+  .img3,
+  .galleryImg {
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .img4 {
+    padding-bottom: 0;
+  }
+
+  .More3 {
+    float: right;
+    padding-right: 27px;
+    margin-top: -10px;
+  }
+
+  .tours {
+    padding: 30px 0;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .tours p {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  .upcoming1 {
+    width: 100%;
+    padding: 6px 0px;
+  }
+
+  .date {
+    white-space: nowrap;
+    padding-left: 25px;
+    padding-right: 30px;
+    margin-left: 2px;
+    margin-right: 20px;
+    width: 20%;
+    border-right: 2px solid white;
+  }
+
+  .date h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .date p {
+    font-size: 16px;
+    padding-left: 0;
+  }
+
+
+  .venue {
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 2px;
+    margin-right: 0;
+    text-align: center;
+    width: 50%;
+  }
+
+  .venue h2 {
+    font-size: 22px;
+
+  }
+
+  .venue p {
+    font-size: 16px;
+    padding-top: 13.5px;
+    padding-right: 0;
+    margin-right: 0;
+  }
+
+  .countdown {
+    clear: both;
+    padding: 20px 0;
+    margin-top: 100px;
+    margin-right: 0%;
+    display: block;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .break3 {
+    display: inline;
+  }
+
+  .upcoming {
+    clear: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 100px;
+    width: 100%;
+  }
+
+  .upcoming ul {
+    padding-top: 200px;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .upcoming li {
+    font-size: 20px;
+    width: 70px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .upcoming li span {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .merchimg {
+    padding-bottom: 0;
+    margin-top: -220px;
+    width: 100%;
+  }
+
+  .merch {
+    padding-bottom: 60px;
+    margin-top: -80px;
+    width: 100%;
+  }
+
+  .bplogo {
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 30%;
+  }
+
+  .merch p {
+    font-size: 13px;
+    padding-left: 20px;
+  }
+
+  .merch p small {
+    font-size: 9px;
+    padding-bottom: 5px;
+  }
+
+  .shopNow {
+    float: right;
+    padding: 0 2%;
+    clear: right;
+    padding-right: 30px;
+    padding-top: 10px;
+  }
+
+  .shopNow a {
+    color: white;
+    font-size: 13px;
+  }
+
+  .container1 {
+    width: 80%;
+  }
+}
+
+/*for tablet*/
+@media screen and (max-width: 1280px) and (min-width: 600px) {
+  body {
+    overflow: hidden;
+  }
+
+  .column1 .share {
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    top: 24%;
+    right: 14%;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .column2{
+    padding-top:75px;
+  }
+
+  .column2 .share {
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    top: 28%;
+    right: 14%;
+    height: 40px;
+    width: 40px;
+  }
+  .img4{
+    padding-bottom: 14px;
+  }
+  .date h2 {
+    padding-right: 0;
+    margin-right: 75px;
+
+  }
+
+  .date p {
+    margin-top: 0;
+    float: left;
+    padding-top: -10px;
+    padding-left: 10px;
+    margin-left: 100px;
+  }
+
+  .venue p {
+    font-size: 22px;
+  }
+
+  .countdown {
+    padding: 20px 100px;
+    margin-top: 100px;
+    margin-right: 30%;
+    text-align: center;
+    float: left;
+  }
+
+  .upcoming ul {
+    width: 100%;
+    padding-left: 250px;
+  }
+
+  .merch {
+    padding-bottom: 100px;
+    margin-top: -730px;
+  }
+}

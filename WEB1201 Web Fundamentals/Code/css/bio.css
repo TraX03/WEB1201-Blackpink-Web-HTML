@@ -1,0 +1,317 @@
+.biobp {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.main {
+  padding: 50px 50px;
+}
+
+p:not(footer p) {
+  color: white;
+  text-align: justify;
+  font-size: 23.3px;
+  padding-top: 6px;
+  margin-top: 0;
+  padding-left: 10px;
+}
+
+
+h1 {
+  color: white;
+  font-size: 70px;
+  margin-bottom: 10px;
+  margin: 30px;
+}
+
+.meaning .achievement {
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+}
+
+.meaning {
+  padding-bottom: 15px;
+  width: 45%;
+  padding-right: 10px;
+  margin-right: 70px;
+  margin-left: 5%;
+}
+
+.meaning p {
+  color: white;
+  font-size: 22px;
+  margin-top: 0;
+  margin-right: 0;
+  padding-top: 0;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.achievement {
+  width: 35%;
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
+.achievement p {
+  color: white;
+  font-size: 22px;
+  padding-left: 30px;
+}
+
+.award {
+  color: #EB97BB;
+  font-size: 27px;
+}
+
+.member {
+  padding-bottom: 50px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.member-image {
+  width: 20%;
+  float: left;
+  height: 370px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 20px;
+}
+
+.member-image img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  position: absolute;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.member-details {
+  color: white;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0));
+  width: 60%;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-top: 60px;
+  float: left;
+
+
+}
+
+.member-details a {
+  text-decoration: none;
+}
+
+.member-details h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.member-details p {
+  font-size: 22px;
+  margin: 0px 0;
+  padding-left: 20px;
+  padding-right: 55px;
+  padding-bottom: 20px;
+}
+
+.member-details .name {
+  font-size: 28.2px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.member-details .insta {
+  color: #FC81B8;
+  font-size: 20px;
+  font-weight: initial;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.member-details .role {
+  font-size: 17.3px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.hbio {
+  padding-left: 78px;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  clear: left;
+  color: white;
+}
+
+.history {
+  width: 87%;
+  margin: auto;
+  padding-bottom: 100px;
+  text-align: justify;
+}
+
+.history h2 {
+  font-size: 38px;
+  color: white;
+  text-align: left;
+  font-weight: initial;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  padding-left: 11px;
+}
+
+/*media queries*/
+/*for mobile*/
+@media screen and (max-width: 400px) {
+  h1 {
+    margin-left: 2px;
+    margin-right: 0px;
+  }
+
+  p {
+    padding-left: 0px;
+  }
+
+  .meaning p,
+  .achievement p {
+    padding-left: 0px;
+  }
+
+  .history h2 {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 300px) {
+
+  .meaning,
+  .achievement {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 10%;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .meaning p {
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .achievement {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .award {
+    font-size: 20px;
+  }
+
+  .hbio {
+    padding-left: 20px;
+  }
+
+  .two,
+  .five,
+  .eight,
+  .eleven {
+    height: 10px;
+  }
+
+  .three,
+  .four,
+  .nine {
+    padding-bottom: 100px;
+  }
+
+  .one {
+    order: 1;
+    flex-basis: 90%;
+  }
+
+  .two {
+    order: 2;
+  }
+
+  .three {
+    order: 3;
+  }
+
+  .four {
+    order: 6;
+  }
+
+  .five {
+    order: 5;
+  }
+
+  .six {
+    order: 4;
+    flex-basis: 90%;
+  }
+
+  .seven {
+    order: 7;
+    flex-basis: 90%;
+  }
+
+  .eight {
+    order: 8;
+  }
+
+  .nine {
+    order: 9;
+  }
+
+  .ten {
+    order: 12;
+  }
+
+  .eleven {
+    order: 11;
+  }
+
+  .twelve {
+    order: 10;
+    flex-basis: 90%;
+  }
+
+  .member-details {
+    width: 85%;
+  }
+
+  .history h2 {
+    font-size: 30px;
+  }
+}
+
+/*for tablet*/
+@media screen and (max-width: 1280px) and (min-width: 600px) {
+  h1 {
+    margin-left: 5px;
+    margin-right: 0px;
+  }
+
+  p {
+    padding-left: 0px;
+  }
+
+  .meaning p,
+  .achievement p {
+    padding-left: 0px;
+  }
+
+}

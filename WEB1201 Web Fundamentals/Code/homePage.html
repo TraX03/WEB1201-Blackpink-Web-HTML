@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACKPINK</title>
+    <link rel="icon" type="image/icon" href="images/webIcon.png">
+    <link rel="stylesheet" href="css/standard.css" type="text/css">
+    <link rel="stylesheet" href="css/homePage.css" type="text/css">
+    <link rel="stylesheet" href="css/signIn.css" type="text/css">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="scrollTop" title="Go to top"><img src="images/angleUp.png" alt="Up Icon"
+            width="80%"></button>
+    <button onclick="document.getElementById('loginCont').style.display='block'" id="login" title="Login/Sign Up">
+        <img src="images/login.png" alt="User Icon" width="80%">
+    </button>
+
+    <nav>
+        <ul class="topNav" id="topNavR">
+            <li><a href="merch.html">MERCH</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="album.html">ALBUM</a></li>
+            <li><a href="bio.html">BIO</a></li>
+            <li><a class="barImg active" href="homePage.html">HOME</a></li>
+            <li class="bar" onclick="navFunction()">
+                <a id="none" class="barImg" href="javascript:void(0);">
+                    <img id="barColor" src="images/menuBar.png" alt="Menu Bar" title="Menu Bar" style="width:100%">
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="img1">
+        <img src="images/BLACKPINK_2.jpg" alt="blackpink_homepage" style="width:100%">
+    </div>
+
+    <h1 class="mainTitle">BLACKPINK</h1>
+
+    <article class="Intro">
+
+        <div class="title">
+            <p><strong>BLACKPINK IN YOUR AREA</strong></p>
+        </div>
+
+        <div class="desc">
+            <p class="p1">BLACKPINK (블랙핑크) consists of 4 members: Jisoo, Jennie, Rosé, and Lisa. The band debuted on
+                August
+                8th, 2016 with their first single album “Square One” under YG Entertainment. On October 23, 2018,
+                BLACKPINK has
+                officially signed with the U.S. label Interscope Records.
+            </p>
+        </div>
+
+        <div class="More" title="More">
+            <a href="bio.html">More</a>
+        </div>
+    </article>
+
+    <div class="img2">
+        <img src="images/img2.jpg" alt="blackpink_album"style="width:100%">
+    </div>
+
+    <div class="album">
+        <h1>Albums</h1>
+        <p>Listen to the most popular album tracks</p>
+    </div>
+
+    <div class="row">
+        <figure class="column1">
+            <img src="images/playWhite.png" alt="playbutton_album" class="center" title="Play" style="width:20%">
+
+            <div class="share"><img src="images/share.png" alt="sharebutton_album" title="Share" style="width:50%"></div>
+
+            <img src="images/kill this love.jpg" alt="blackpink_album" title="blackpink_album" style="width:100%">
+            <figcaption><strong>BLACKPINK - KILL THIS LOVE</strong>
+            </figcaption>
+        </figure>
+
+
+        <figure class="column2">
+            <img src="images/playWhite.png" alt="playbutton_album" class="center" title="Play" style="width:20%">
+
+            <div class="share"><img src="images/share.png" alt="sharebutton_album" title="Share" style="width:50%">
+            </div>
+
+            <img src="images/DDU.jpg" alt="blackpink_album" title="blackpink_album" style="width:100%">
+            <figcaption><strong>BLACKPINK - DDU-DU DDU-DU</strong></figcaption>
+        </figure>
+    </div>
+
+    <div class="More2" title="More">
+        <a href="album.html">More</a>
+    </div>
+
+    <div class="gallery">
+        <h1> Gallery </h1>
+        <p>Best captured moments</p>
+    </div>
+
+    <div class="g">
+        <div class="img3">
+            <img src="images/concert (1).jpg" alt="blackpink_gallery" style="width:100%">
+        </div>
+
+        <div class="galleryImg">
+            <div class="img4">
+                <img src="images/blackpink(2).jpg" alt="blackpink_gallery" style="width:100%">
+            </div>
+
+
+            <img src="images/sharpen.jpg" alt="blackpink_gallery" style="width:100%">
+
+        </div>
+    </div>
+
+    <div class="More3" title="More">
+        <a href="gallery.html">More</a>
+    </div>
+
+    <div class="tours">
+        <h1> Upcoming Tours </h1>
+        <p>Born Pink World Tour Schedule 2023</p>
+    </div>
+
+    <div class="upcoming1">
+        <div class="date">
+            <h2><strong>Date</strong></h2>
+            <p><br> 2 July 2023<br>
+                <br><br>
+                <br>15 July 2023<br>
+                <br><br>
+                <br><span class="break3"><br></span>1 Aug 2023<br>
+                <br><br>
+                <br><span class="break3"><br></span>12 Aug 2023<br>
+            </p>
+        </div>
+
+        <div class="venue">
+            <h2><strong>County / Venue</strong></h2>
+            <p><strong>London, UK </strong><br>Hyde Park<br>
+                <br><br>
+                <strong>Saint-Denis, France</strong> <br>Stade de France<br>
+                <br><br>
+                <strong>Easst Rutherford, New Jersey, USA</strong><br> MetLife Stadium<br>
+                <br><br>
+                <strong>Easst Rutherford, New Jersey, USA</strong><br> MetLife Stadium<br>
+            </p>
+        </div>
+    </div>
+
+    <div class="countdown">
+        <h1><strong>Concert<br> Countdown</strong></h1>
+    </div>
+
+    <div class="upcoming">
+        <ul>
+            <li><span id="days"></span>days</li>
+            <li><span id="hours"></span>Hours</li>
+            <br class="break3">
+            <li><span id="minutes"></span>Minutes</li>
+            <li><span id="seconds"></span>Seconds</li>
+        </ul>
+    </div>
+
+    <img class="merchimg" src="images/merch.jpg" alt="blackpink_merch" style="width:100%">
+
+    <div class="merch">
+        <img class="bplogo" src="images/logo.png" alt="blackpink_merch" width=20%>
+        <p>Blackpink Official Merchandise is Available Now!<br> <small>Check out some of BLACKPINK's latest
+                merch</small><br></p>
+        <div class="shopNow" title="Shop Now">
+            <a href="merch.html">SHOP NOW >></a>
+        </div>
+    </div>
+
+    <div>
+        <h3><strong>Contact Us</strong></h3>
+
+        <div class="container1">
+            <form onsubmit="return submitForm(event)">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+                <label for="email">Email Address</label>
+
+                <input type="text" id="email" name="email" placeholder="Your email address.." required>
+
+                <label for="message">Message</label>
+
+                <textarea id="message" name="message" placeholder="Let's drop some message.." style="height:100px"
+                    required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+
+    <div id="loginCont" class="modal">
+        <form id="loginForm" class="modal-content animate" onsubmit="return submitLogin()">
+            <div>
+                <span onclick="document.getElementById('loginCont').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+                <h2>Sign In</h2>
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required pattern=".{5,30}"
+                    oninvalid="this.setCustomValidity('Please enter your username (5 to 30 characters)')"
+                    oninput="this.setCustomValidity('')">
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required pattern=".{8,}"
+                    oninvalid="this.setCustomValidity('Please enter your password (at least 8 characters)')"
+                    oninput="this.setCustomValidity('')">
+
+                <button id="sumbitB" type="submit">Login</button>
+                <label id="rememberBox">
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+
+            <div class="container" style="background-color:white">
+                <button type="button" onclick="document.getElementById('loginCont').style.display='none'"
+                    class="cancelbtn">Cancel</button>
+                <span class="signup"><span id="formSpan">Don't have an account yet?</span> <a id="formLink"
+                        href="javascript:void(0);" onclick="toggleForm()">Sign Up</a>
+                </span>
+            </div>
+        </form>
+    </div>
+
+
+    <hr>
+
+    <footer>
+        <ul class="bottomNav">
+            <li><a href="homePage.html">HOME</a></li>
+            <li><a href="bio.html">BIO</a></li>
+            <div class="break2" style="height: 30px;"></div>
+            <li><a href="album.html">ALBUM</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="merch.html">MERCH</a></li>
+        </ul>
+        <div class="logo">
+            <img src="images/logo.png" alt="BLACKPINK Logo" width="40%" height="30%">
+            <div class="break2" style="height: 15px;"></div>
+            <p class="misc">
+                By WEB1201 Web Fundamentals Group 27<br>Created solely for the purpose of assignment
+            </p>
+        </div>
+
+        <div class="contact">
+            <p>Official Contact:</p>
+            <a target="_blank" href="https://www.instagram.com/blackpinkofficial/">
+                <img src="images/insta.png" alt="Instagram Icon" title="Insta" width="13%"></a>
+            <a target="_blank" href="https://www.facebook.com/BLACKPINKOFFICIAL/">
+                <img src="images/facebook.png" alt="Facebook Icon" title="Facebook" width="8%"></a>
+            <a target="_blank" href="https://twitter.com/BLACKPINK">
+                <img src="images/twitter.png" alt="Twitter Icon" title="Twitter" width="15%"></a>
+            <a target="_blank" href="https://www.youtube.com/BLACKPINKOFFICIAL">
+                <img src="images/youtube.png" alt="YouTube Icon" title="YouTube" width="16%"></a>
+        </div>
+    </footer>
+
+
+    <script src="js/homePage.js"></script>
+    <script src="js/standard.js"></script>
+</body>
+
+</html>

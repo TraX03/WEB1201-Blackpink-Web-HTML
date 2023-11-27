@@ -1,0 +1,193 @@
+header {
+    margin: 60px 100px;
+}
+
+header h1 {
+    color: #E69EB2;
+    margin: 0;
+    font-size: 56px;
+}
+
+header h2 {
+    color: white;
+    margin: 0;
+}
+
+.product-list {
+    margin: 0 100px 100px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-info {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.product-image {
+    flex: 1;
+    max-width: 400px;
+}
+
+.product-image img {
+    width: 100%;
+}
+
+.product-details {
+    flex: 1;
+}
+
+.product-name {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.product-description {
+    font-size: 25px;
+}
+
+.product-option {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.product-option a {
+    padding: 0 0 0 10px;
+    font-size: 18px;
+}
+
+.product-option a:link,
+.product-option a:visited {
+    color: black;
+}
+
+.row hr {
+    margin: 40px 0;
+    border-width: 2px;
+}
+
+.total {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.total-left {
+    flex: 1;
+}
+
+.total-right {
+    flex: 1;
+}
+
+.subtotal,
+.shipping,
+.total-amount {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.total-right p,
+.total-right hr {
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.total-amount {
+    font-weight: bold;
+}
+
+.total-right button {
+    position: relative;
+    background-color: black;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 100px;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 20px;
+    transition: 0.2s all;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+}
+
+.total-right button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.notif {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 250px;
+    text-align: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.notif-content {
+    background-color: rgb(255, 229, 253);
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    color: black;
+    border-radius: 10px;
+}
+
+.close {
+    color: #888;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*media queries*/
+/*for mobile*/
+@media screen and (max-width: 650px) {
+    header {
+        margin: 60px 10%;
+    }
+
+    .product-list {
+        margin: 10%;
+    }
+
+    .product-info {
+        display: initial;
+    }
+
+    .total-left {
+        flex: 0;
+    }
+}
+
+/*for landscape tablet*/
+@media screen and (max-width: 1260px) and (min-width: 650px) {
+    header {
+        margin: 60px 10%;
+    }
+
+    .product-list {
+        margin: 10%;
+    }
+}
+

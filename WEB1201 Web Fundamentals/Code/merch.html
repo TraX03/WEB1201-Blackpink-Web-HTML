@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACKPINK</title>
+    <link rel="icon" type="image/icon" href="images/webIcon.png">
+    <link rel="stylesheet" href="css/standard.css" type="text/css">
+    <link rel="stylesheet" href="css/merch.css" type="text/css">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="scrollTop" title="Go to top"><img src="images/angleUp.png" alt="Up Icon"
+            width="80%"></button>
+
+    <div>
+        <nav>
+            <ul class="topNav" id="topNavR">
+                <li><a class="barImg active" href="merch.html">MERCH</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="album.html">ALBUM</a></li>
+                <li><a href="bio.html">BIO</a></li>
+                <li><a href="homePage.html">HOME</a></li>
+                <li class="bar" onclick="navFunction()"><a id="none" class="barImg" href="javascript:void(0);"><img
+                            id="barColor" src="images/menuBar.png" alt="Menu Bar" title="Menu Bar" style="width:100%"></a></li>
+            </ul>
+        </nav>
+
+        <img class="banner" src="images/merchBanner.jpg" alt="Merch Banner">
+    </div>
+
+    <div class="toolbar">
+        <div class="leftcol">
+            <div class="filter" title="Filter">FILTER <img src="images/merchToolbarFilter.svg" alt="Filter"></div>
+        </div>
+        <div class="rightcol">
+            <div class="currency" title="Currency">
+                <select id="custom-select">
+                    <option value="option1">MYR</option>
+                    <option value="option2">SGD</option>
+                    <option value="option3">JPY</option>
+                    <option value="option4">GBP</option>
+                    <option value="option5">EUR</option>
+                </select>
+            </div>
+            <div class="search" title="Search">
+                <div class="search-box">
+                    <button class="btn-search"><img src="images/merchToolbarSearch.png" alt="Search"></button>
+                    <input type="text" class="input-search" placeholder="Type to Search...">
+                </div>
+            </div>
+            <div class="shopping" onclick="location.href = 'shoppingBag.html';" title="Shopping Bag">
+                <img src="images/merchToolbarShoppingBag.png" alt="Shopping Bag">
+                <span>3</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="filter-popup">
+        <div class="popup-overlay"></div>
+        <div class="main-popup">
+            <div class="popup-content">
+                <span class="close-btn">&times;</span>
+                <p class="popup-heading">Sort By</p>
+                <div class="sort-by">
+                    <label><input type="radio" name="sort" checked><span>Ascending Price</span></label>
+                    <label><input type="radio" name="sort"><span>Descending Price</span></label>
+                    <label><input type="radio" name="sort"><span>Name (A-Z)</span></label>
+                    <label><input type="radio" name="sort"><span>Name (Z-A)</span></label>
+                </div>
+                <p class="popup-heading">Price Range</p>
+                <div class="price-range">
+                    <span>Min </span>
+                    <label><input type="number" value="10"><span>&minus;</span><input type="number" value="100"></label>
+                    <span>Max</span>
+                </div>
+                <p class="popup-heading">Product Type</p>
+                <div class="product-type">
+                    <label><input type="checkbox"><span>Accessories</span></label>
+                    <label><input type="checkbox"><span>Apparel</span></label>
+                    <label><input type="checkbox"><span>Collections</span></label>
+                    <label><input type="checkbox"><span>Music</span></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <h1>All Products</h1>
+    </header>
+
+    <main class="wrapper">
+        <div class="products">
+            <div class="product" title="JISOO ME BUCKET HAT">
+                <a href="">
+                    <img src="images/product1.png" alt="Product 1">
+                    <figcaption>JISOO ME BUCKET HAT<br>$35.00</figcaption>
+                </a>
+            </div>
+            <div class="product" title="BLACKPINK 2023 ATHLETIC PUFF PRINT PULLOVER HOODIE">
+                <a href="merchInfo.html">
+                    <img src="images/product2.png" alt="Product 2">
+                    <figcaption>BLACKPINK 2023 ATHLETIC PUFF PRINT PULLOVER HOODIE<br>$80.00</figcaption>
+                </a>
+            </div>
+            <div class="product" title="JISOO FIRST SINGLE ALBUM PHOTOBOOK (BLACK)">
+                <a href="">
+                    <img src="images/product3.png" alt="Product 3">
+                    <figcaption>JISOO FIRST SINGLE ALBUM PHOTOBOOK (BLACK)<br>$30.00</figcaption>
+                </a>
+            </div>
+            <div class="product" title="BORN PINK VINYL">
+                <a href="">
+                    <img src="images/product4.png" alt="Product 4">
+                    <figcaption>BORN PINK VINYL<br>$38.00</figcaption>
+                </a>
+            </div>
+            <div class="product" title="STANDARD CD">
+                <a href="">
+                    <img src="images/product5.png" alt="Product 5">
+                    <figcaption>STANDARD CD<br>$16.48</figcaption>
+                </a>
+            </div>
+            <div class="product" title="JISOO FLOWER HEART TOTE BAG">
+                <a href="">
+                    <img src="images/product6.png" alt="Product 6">
+                    <figcaption>JISOO FLOWER HEART TOTE BAG<br>$40.00</figcaption>
+                </a>
+            </div>
+            <div class="product" title="BORN PINK HOODIE">
+                <a href="">
+                    <img src="images/product7.png" alt="Product 7">
+                    <figcaption>BORN PINK HOODIE<br>$70.00</figcaption>
+                </a>
+            </div>
+            <div class="product" title="BORN PINK SWEATS">
+                <a href="">
+                    <img src="images/product8.png" alt="Product 8">
+                    <figcaption>BORN PINK SWEATS<br>$70.00</figcaption>
+                </a>
+            </div>
+            <div class="product" title="KRUNK X BLACKPINK IN YOUR AREA POUCH">
+                <a href="">
+                    <img src="images/product9.png" alt="Product 9">
+                    <figcaption>KRUNK X BLACKPINK IN YOUR AREA POUCH<br>$30.00</figcaption>
+                </a>
+            </div>
+        </div>
+        <div class="page-nav">
+            <a href="" class="page selected">1</a>
+            <a href="" class="page">2</a>
+            <a href="" class="page next">Next ></a>
+        </div>
+    </main>
+
+    <hr>
+
+    <footer>
+        <ul class="bottomNav">
+            <li><a href="homePage.html">HOME</a></li>
+            <li><a href="bio.html">BIO</a></li>
+            <div class="break2" style="height: 30px;"></div>
+            <li><a href="album.html">ALBUM</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="merch.html">MERCH</a></li>
+        </ul>
+        <div class="logo">
+            <img src="images/logo.png" alt="BLACKPINK Logo" width="40%" height="30%">
+            <div class="break2" style="height: 15px;"></div>
+            <p class="misc">
+                By WEB1201 Web Fundamentals Group 27<br>Created solely for the purpose of assignment
+            </p>
+        </div>
+
+        <div class="contact">
+            <p>Official Contact:</p>
+            <a target="_blank" href="https://www.instagram.com/blackpinkofficial/">
+                <img src="images/insta.png" alt="Instagram Icon" title="Insta" width="13%"></a>
+            <a target="_blank" href="https://www.facebook.com/BLACKPINKOFFICIAL/">
+                <img src="images/facebook.png" alt="Facebook Icon" title="Facebook" width="8%"></a>
+            <a target="_blank" href="https://twitter.com/BLACKPINK">
+                <img src="images/twitter.png" alt="Twitter Icon" title="Twitter" width="15%"></a>
+            <a target="_blank" href="https://www.youtube.com/BLACKPINKOFFICIAL">
+                <img src="images/youtube.png" alt="YouTube Icon" title="YouTube" width="16%"></a>
+        </div>
+    </footer>
+
+    <script src="js/standard.js"></script>
+    <script src="js/merch.js"></script>
+</body>
+
+</html>
